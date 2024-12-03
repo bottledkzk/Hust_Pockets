@@ -2,16 +2,88 @@
 <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>My Go</title>
         
         <style>
-			
+			body {
+				/*加载背景图：图片地址 不平铺 */
+				background: url(../images/MYgoBG.jpg) no-repeat center center;
+				/* 让背景图基于容器大小伸缩 */
+				background-size: cover;
+				/* background-attachment设置背景图像是否固定或者随着页面的其余部分滚动。
+					scroll 背景图片随着页面的滚动而滚动，这是默认的。
+ 					fixed 背景图片不会随着页面的滚动而滚动。
+  					local 背景图片会随着元素内容的滚动而滚动。*/
+				background-attachment: fixed;
+			}
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                border: 1px;
+                border-color: transparent;
+                background-color: transparent;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(40, 212, 198);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+            li a.active {
+                color: white;
+                background-color: #4cafaf;
+            }
+            h1 {text-align:center;
+                height:15vh;
+                font-size:100px;
+                }
 
 		</style>
     </head>
     <body>
         
-        
+        <ul>
+            <li><a href="#">CS2410</a></li>
+            <li><a href="https://bottledkzk.github.io/QYD12-230/">沁苑东十二230</a></li>
+            <li><a href="https://bottledkzk.github.io/Hust_Pockets/">Hust Pockets</a></li>
+        </ul>
+        <h1><img border="0" src="../images/MYgo.png"></img></h1>
+        <p style="text-align:center;font-size:20px;color:#cc960f;font-weight:lighter">为什么要演奏春日影?!<br</p>
+        <div style="text-align: center;color:aqua;">
+            你说得对，但这就是MYgo →→
+            <a href="mygo_about.html">
+            <img border="0" src="../images/Tomorin.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <div style="text-align: center;color:#cc960f;">
+            哦内该！Saki酱不在的话！瓦塔西！ →→
+            <a href="https://www.bilibili.com/video/BV1qm421s7MR/">
+            <img border="0" src="../images/Soyo-3.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <div style="text-align: center;color: white;">
+            你知道的，我一直都是迷途之子!!!!!的粉丝！至于Mygo，我祝她好运！ →→
+            <a href="https://www.bilibili.com/bangumi/play/ss73077">
+            <img border="0" src="../images/maomao.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <div style="text-align: center;color: pink;">
+            关注MYgo_AveMujica喵~关注MYgo_AveMujica喵谢谢喵~ →→
+            <a href="https://space.bilibili.com/1459104794">
+            <img border="0" src="../images/Anon.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <audio src="../musics/春日影.mp3" id="dd" autoplay="autoplay" controls="controls" loop="loop"></audio>
 
     </body>
 </html>
