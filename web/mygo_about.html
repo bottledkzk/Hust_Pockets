@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Go</title>
+        
+        <style>
+			body {
+				/*加载背景图：图片地址 不平铺 */
+				background: url(../images/MYgoBG.jpg) no-repeat center center;
+				/* 让背景图基于容器大小伸缩 */
+				background-size: cover;
+				/* background-attachment设置背景图像是否固定或者随着页面的其余部分滚动。
+					scroll 背景图片随着页面的滚动而滚动，这是默认的。
+ 					fixed 背景图片不会随着页面的滚动而滚动。
+  					local 背景图片会随着元素内容的滚动而滚动。*/
+				background-attachment: fixed;
+			}
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                border: 1px;
+                border-color: transparent;
+                background-color: transparent;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(40, 212, 198);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+            li a.active {
+                color: white;
+                background-color: #4cafaf;
+            }
+            h1 {text-align:center;
+                height:15vh;
+                font-size:100px;
+                }
+
+		</style>
+    </head>
+    <body>
+        
+        <ul>
+            <li><a href="#">CS2410</a></li>
+            <li><a href="https://bottledkzk.github.io/QYD12-230/">沁苑东十二230</a></li>
+            <li><a href="https://bottledkzk.github.io/Hust_Pockets/">Hust Pockets</a></li>
+        </ul>
+        <h1><a href="mygo.html"><img border="0" src="../images/MYgo.png"></a></img></h1>
+        <p style="text-align:center;font-size:20px;color:white;font-weight:lighter;">
+            你说的对，但是《Mygo》是由武士道自主研发的一款全新少女乐队动画。<br>
+            动画发生在一个被称作「东京」的现实世界，在这里，被灯选中的人将被《詩超絆》催眠，导引少女乐队之力。<br>
+            你将扮演一位名为「千早爱音」的伦敦逃兵，在自由的旅行中邂逅性格各异、能力独特的同伴们，和她们一起击败强敌，一起成为迷子。<br>
+            一个不看Mygo的人，无非只有两种可能性。<br>
+            一种是没有能力看Mygo。因为B站还没正式上映和找不到资源等各种自身因素，他的人生都是失败的。<br>
+            第二种可能：有能力却不玩看的人，在有能力而没有看Mygo的想法时，那么这个人的思想境界便低到了一个令人发指的程度。<br>
+            一个有能力的人不付出行动来证明自己，只能证明此人行为素质修养之低下。是灰暗的，是不被真正的社会认可的。<br>
+            Mygo怎么你了，我现在每天看Mygo二创都能投16个币，每个小时都能为Mygo二创提供一次三连，也就是现实生活每天8小时刷Mygo的水平,<br>
+            虽然我只有18岁，但是已经超越了中国绝大多数人(包括你)的水平，这便是Mygo给我的骄傲的资本。<br>
+            这恰好说明了Mygo这个IP在互联网使Go批体现出来的团结和凝聚力，以及非比寻常的脑洞，这种氛围在如今已经变质的B站上是难能可贵的，这也造就了Mygo和Go批间互帮互助的局面，<br>
+            Mygo负责输出优质内容，Go批自发进行神之二创和解读，如此良好的动画发展生态可以说让其他动画艳羡不已<br>
+            看动画不看Mygo，就像四大名著不看红楼梦，说明这人文学造诣和自我修养不足，<br>
+            他理解不了这种内在的阳春白雪的高雅艺术，他只能看到外表的辞藻堆砌，参不透其中深奥的精神内核,只能度过一个相对失败的人生。<br>
+            <br>
+        </p>
+        <p style="text-align:center;font-size:20px;color:aqua;font-weight:lighter;">
+            ——鉴定为听詩超絆听的——<br>
+        </p>
+
+        <audio src="../musics/詩超絆.mp3" id="dd" autoplay="autoplay" controls="controls" loop="loop"></audio>
+
+    </body>
+</html>
