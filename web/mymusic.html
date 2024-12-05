@@ -2,16 +2,87 @@
 <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>My Music</title>
         
         <style>
-			
+			body {
+                background: url(../images/miku2.jpg) no-repeat center center;
+				background-position:bottom right;
+				background-attachment: fixed;
+                background-size: 544px 973px;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                border: 1px;
+                border-color: transparent;
+                background-color: transparent;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: rgb(40, 212, 198);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+
+            li a.active {
+                color: white;
+                background-color: #4cafaf;
+            }
+            h1 {text-align:center;
+                height:15vh;
+                font-size:100px;
+                color:white;
+	       font-weight:lighter;}
 
 		</style>
     </head>
     <body>
         
+        <ul>
+            <li><a href="#">CS2410</a></li>
+            <li><a href="https://bottledkzk.github.io/QYD12-230/">沁苑东十二230</a></li>
+            <li><a href="https://bottledkzk.github.io/Hust_Pockets/">Hust Pockets</a></li>
+        </ul>
+        <h1><img border="0" src="../images/MYMUSIC.png"></img></h1>
+        <p style="text-align:center;color:chartreuse;">
+            我喜欢听VOCALOID和J-Pop<br>
+            最喜欢的乐队是ヨルシカ<br>
+            喜欢的P主有*Luna，Orangestar，PIKASONIC,Deco*27,はりーP,カンザキイオリ,傘村トータ<br>
+            最喜欢的歌姬是初音ミク<br>
+            <br>
+        </p>
         
+        <div style="text-align: center;color:black;">
+            ヨルシカ永远的神,关注<a href="https://music.163.com/#/artist?id=12390232">Yorushika</a>谢谢喵~
+            <a href="https://www.bilibili.com/video/BV1J4sCerEy4/">
+            <img border="0" src="../images/Yorushika.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <div style="text-align: center;color:aqua;">
+            *Luna，最绚丽的夏天，夏曲赛高！
+            <a href="https://www.bilibili.com/video/BV1rP4y1u7bb/">
+            <img border="0" src="../images/Luna.jpg"style=" height: 75px; "/></br>
+            </a>
+        </div>
+        <div style="text-align: center;color:#39c5bb;">
+            最后，关注初音ミク喵~<br>
+            有谁能不喜欢这么可爱的Miku酱呢？
+            <a href="https://space.bilibili.com/399918500">
+                <img border="0" src="../images/mikulove.png"style=" height: 75px; "/></br>
+            </a>
+        </div>
 
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=12956186865&auto=1&height=430"></iframe>
     </body>
 </html>
